@@ -1,0 +1,16 @@
+ANALISIS:
+El programa calcula el promedio de estatura solo de las mujeres. Es similar al programa 32 pero acumula estaturas en lugar de edades.
+
+DATOS DE ENTRADA:
+n: numero total de personas en el grupo
+nom$(i), sex$(i), edad(i), est(i): datos completos de cada persona
+
+PROCESO:
+Se filtra por sex$(i)="M" y se acumula est(i) en sum. Se cuenta cuantas mujeres hay en contM. Si contM es mayor que cero se calcula el promedio dividiendo sum entre contM.
+
+DATOS DE SALIDA:
+prom: promedio de estatura de las mujeres en metros
+contM: numero de mujeres en el grupo
+
+RESTRICCIONES:
+Se verifica que haya al menos una mujer antes de calcular el promedio para no dividir entre cero.

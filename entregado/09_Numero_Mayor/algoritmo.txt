@@ -1,0 +1,9 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar variables a, b, c, may
+Paso 3. Pedir los tres numeros a, b, c
+Paso 4. Asignar may = a
+Paso 5. Si b > may, asignar may = b
+Paso 6. Si c > may, asignar may = c
+Paso 7. Mostrar el valor de may
+Paso 8. Esperar Enter
+Paso 9. Fin del programa

@@ -1,0 +1,16 @@
+ANALISIS:
+El programa recibe tres numeros y determina cual es el menor. La logica es similar al programa del mayor pero al reves: se busca el valor mas pequeño.
+
+DATOS DE ENTRADA:
+a: primer numero
+b: segundo numero
+c: tercer numero
+
+PROCESO:
+Se asume que el menor es a. Luego se compara con b y c para actualizar si se encuentra un valor mas pequeño. Al final la variable men tiene el numero menor.
+
+DATOS DE SALIDA:
+men: el numero menor de los tres
+
+RESTRICCIONES:
+No hay restricciones. Si hay empate se muestra uno de los valores minimos.

@@ -1,0 +1,10 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar n, i, cont, arreglos nom$, sex$, edad, est
+Paso 3. Pedir n, validar n > 0
+Paso 4. Para i de 1 hasta n: pedir nom$(i), sex$(i), edad(i), est(i)
+Paso 5. Convertir sex$(i) a mayusculas con UCASE$
+Paso 6. Inicializar cont = 0
+Paso 7. Para i de 1 hasta n: si sex$(i) = "H" entonces cont = cont + 1
+Paso 8. Mostrar cont
+Paso 9. Esperar Enter
+Paso 10. Fin

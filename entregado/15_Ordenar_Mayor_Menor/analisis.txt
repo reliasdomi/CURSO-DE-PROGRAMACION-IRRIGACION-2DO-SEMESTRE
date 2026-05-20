@@ -1,0 +1,15 @@
+ANALISIS:
+Este programa ordena numeros de mayor a menor, o sea en orden descendente. La logica es casi identica al programa anterior pero la condicion de intercambio se invierte.
+
+DATOS DE ENTRADA:
+n: cantidad de numeros, mayor que cero
+A(i): los n valores numericos
+
+PROCESO:
+Se usa burbuja descendente. La diferencia con la burbuja ascendente es que ahora se intercambian A(j) y A(j+1) cuando A(j) es MENOR que A(j+1), es decir cuando el elemento de la izquierda es mas pequeño. Cada pasada coloca el menor elemento al final.
+
+DATOS DE SALIDA:
+El arreglo ordenado de mayor a menor.
+
+RESTRICCIONES:
+N debe ser mayor que cero. Misma complejidad O(n²) que la burbuja ascendente.

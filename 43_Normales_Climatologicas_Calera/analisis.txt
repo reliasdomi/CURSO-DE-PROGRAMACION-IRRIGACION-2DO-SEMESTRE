@@ -1,0 +1,25 @@
+ANALISIS:
+El programa lee un archivo con normales climatologicas de la estacion 32003 Calera, Zacatecas, y permite realizar operaciones estadisticas sencillas mediante un menu.
+
+DATOS DE ENTRADA:
+normales_calera.csv: archivo con las variables climatologicas y sus valores normales por mes.
+op: opcion seleccionada por el usuario en el menu.
+sel, sel1, sel2: variables seleccionadas para consultar o comparar.
+
+PROCESO:
+Se abre el archivo CSV y se guardan las variables en arreglos. Cada fila contiene una variable y trece valores numericos: doce meses y el dato anual. Con estos datos el menu permite consultar valores, calcular el promedio mensual, encontrar el mes con mayor y menor valor, ver el valor anual y comparar dos variables por mes.
+
+DATOS DE SALIDA:
+Tabla mensual de una variable.
+Promedio mensual de una variable.
+Mes con valor mayor y mes con valor menor.
+Valor anual reportado por el SMN.
+Comparacion mensual entre dos variables.
+
+RESTRICCIONES:
+El archivo normales_calera.csv debe estar en la misma carpeta que programa.bas. El formato del CSV debe conservar las columnas: variable, ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic y anual.
+
+FUENTE:
+Servicio Meteorologico Nacional / CONAGUA.
+Normal climatologica 1991-2020 de la estacion 32003 Calera, Zacatecas.
+https://smn.conagua.gob.mx/tools/RESOURCES/Normales_Climatologicas/Normales9120/zac/nor9120_32003.txt

@@ -1,0 +1,16 @@
+ANALISIS:
+Igual que el programa 28 pero ahora se filtran los hombres en lugar de las mujeres. Se busca la estatura maxima y minima entre los hombres del grupo.
+
+DATOS DE ENTRADA:
+n: numero de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se filtra por sex$(i)="H" y se aplica la misma logica de inicializacion con encontro. Si no hay hombres se avisa.
+
+DATOS DE SALIDA:
+may: estatura mayor entre hombres
+men: estatura menor entre hombres
+
+RESTRICCIONES:
+N mayor que cero. Se verifica que haya al menos un hombre antes de mostrar resultados.

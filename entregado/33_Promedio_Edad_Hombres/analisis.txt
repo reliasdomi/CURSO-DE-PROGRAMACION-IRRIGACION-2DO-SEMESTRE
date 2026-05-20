@@ -1,0 +1,17 @@
+ANALISIS:
+Igual que el programa 32 pero para los hombres. Se acumulan las edades de las personas con sexo "H" y se calcula el promedio dividiendo entre el numero de hombres.
+
+DATOS DE ENTRADA:
+n: numero total de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Ciclo FOR acumulando edad en sum cuando sex$(i)="H". Se cuenta cuantos hombres hay en contH. Se verifica contH > 0 antes de dividir.
+
+DATOS DE SALIDA:
+prom: promedio de edad de los hombres
+contH: numero de hombres
+O mensaje si no hay hombres.
+
+RESTRICCIONES:
+Se verifica contH > 0 para evitar division entre cero.

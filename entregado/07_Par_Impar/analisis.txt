@@ -1,0 +1,14 @@
+ANALISIS:
+El programa determina si un numero entero es par o impar. Cualquier numero entero cae en una de estas dos categorias, no hay excepcion.
+
+DATOS DE ENTRADA:
+n: un numero entero cualquiera (puede ser positivo, negativo o cero)
+
+PROCESO:
+Se usa el operador MOD, que da el residuo de la division entre dos. Si el residuo de n entre 2 es cero, o sea que no sobra nada, entonces el numero es par. Si el residuo es 1 (o -1 para negativos) entonces es impar.
+
+DATOS DE SALIDA:
+Un mensaje indicando si n es par o impar.
+
+RESTRICCIONES:
+El numero debe ser entero. Para numeros con decimales el MOD puede dar resultados inesperados.

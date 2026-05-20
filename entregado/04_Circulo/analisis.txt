@@ -1,0 +1,15 @@
+ANALISIS:
+El programa calcula el area y la circunferencia de un circulo a partir del radio. Se usa el valor de PI = 3.14159 como constante.
+
+DATOS DE ENTRADA:
+r: el radio del circulo. Debe ser un numero mayor que cero.
+
+PROCESO:
+El area se calcula con la formula PI por radio al cuadrado. La circunferencia es 2 por PI por radio. Primero se valida que el radio sea positivo.
+
+DATOS DE SALIDA:
+A: area del circulo
+C: circunferencia del circulo
+
+RESTRICCIONES:
+El radio debe ser mayor que cero. Un radio negativo o cero no tiene significado geometrico y el programa lo rechaza.

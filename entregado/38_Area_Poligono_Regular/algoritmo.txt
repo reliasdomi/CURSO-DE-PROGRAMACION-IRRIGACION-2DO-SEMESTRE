@@ -1,0 +1,7 @@
+Paso 1. Inicio
+Paso 2. Declarar nlados, lado, area, PI = 4*ATN(1)
+Paso 3. Pedir nlados, validar nlados >= 3
+Paso 4. Pedir lado, validar lado > 0
+Paso 5. Calcular area = (nlados * lado * lado) / (4 * TAN(PI / nlados))
+Paso 6. Mostrar area
+Paso 7. Esperar Enter, Fin

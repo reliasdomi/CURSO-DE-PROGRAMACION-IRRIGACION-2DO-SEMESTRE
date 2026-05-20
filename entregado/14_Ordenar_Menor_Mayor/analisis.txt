@@ -1,0 +1,15 @@
+ANALISIS:
+El programa ordena un conjunto de N numeros de menor a mayor usando el metodo de burbuja. El metodo de burbuja compara pares de elementos adyacentes y los intercambia si estan en el orden equivocado.
+
+DATOS DE ENTRADA:
+n: cantidad de numeros a ordenar, mayor que cero
+A(i): los n numeros que se van a ordenar
+
+PROCESO:
+Se usa el algoritmo de burbuja ascendente. Hay dos ciclos anidados: el externo controla las pasadas y el interno hace las comparaciones. Cada pasada coloca el mayor elemento al final de la parte no ordenada. Si A(j) es mayor que A(j+1) se intercambian usando una variable temporal.
+
+DATOS DE SALIDA:
+El arreglo A ordenado de menor a mayor, mostrado elemento por elemento.
+
+RESTRICCIONES:
+N debe ser mayor que cero. El algoritmo es O(n²) o sea es eficiente para conjuntos pequeños pero lento para miles de datos.

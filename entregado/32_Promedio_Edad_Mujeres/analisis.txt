@@ -1,0 +1,17 @@
+ANALISIS:
+El programa calcula el promedio de edad exclusivamente de las mujeres del grupo. Se acumulan solo las edades de las personas con sexo "M" y se divide entre el conteo de mujeres.
+
+DATOS DE ENTRADA:
+n: numero total de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se recorre el arreglo y cuando sex$(i)="M" se acumula la edad en sum y se incrementa contM. Al final se divide sum entre contM. Si contM es cero no hay mujeres y se evita la division entre cero.
+
+DATOS DE SALIDA:
+prom: promedio de edad de las mujeres
+contM: numero de mujeres
+O mensaje si no hay mujeres.
+
+RESTRICCIONES:
+Se verifica contM > 0 antes de dividir para evitar error de division entre cero.

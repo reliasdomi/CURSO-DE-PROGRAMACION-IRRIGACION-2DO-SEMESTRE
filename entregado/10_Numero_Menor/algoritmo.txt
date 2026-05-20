@@ -1,0 +1,9 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar variables a, b, c, men
+Paso 3. Pedir los tres numeros
+Paso 4. Asignar men = a
+Paso 5. Si b < men, asignar men = b
+Paso 6. Si c < men, asignar men = c
+Paso 7. Mostrar men
+Paso 8. Esperar Enter
+Paso 9. Fin del programa

@@ -1,0 +1,16 @@
+Paso 1. Inicio del programa.
+Paso 2. Declarar arreglos para nombres de variables, meses y datos numericos.
+Paso 3. Cargar los nombres de los meses.
+Paso 4. Abrir el archivo normales_calera.csv.
+Paso 5. Leer y descartar el encabezado del CSV.
+Paso 6. Leer cada fila del archivo, separar los campos por comas y guardar los datos.
+Paso 7. Si no se pudo leer el archivo, mostrar un mensaje de error y terminar.
+Paso 8. Mostrar el menu principal.
+Paso 9. Si el usuario elige ver datos, pedir una variable y mostrar sus valores mensuales y anual.
+Paso 10. Si el usuario elige promedio mensual, sumar los doce meses y dividir entre doce.
+Paso 11. Si el usuario elige mayor y menor, recorrer los doce meses y comparar los valores.
+Paso 12. Si el usuario elige valor anual, mostrar el dato anual de la variable.
+Paso 13. Si el usuario elige comparar, pedir dos variables y mostrar sus valores por mes con la diferencia.
+Paso 14. Si el usuario elige mostrar todos los datos, imprimir todas las variables por bloques.
+Paso 15. Repetir el menu hasta que el usuario elija salir.
+Paso 16. Fin del programa.

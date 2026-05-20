@@ -1,0 +1,8 @@
+Paso 1. Inicio
+Paso 2. Declarar m, n, i, j y matrices A, B, C
+Paso 3. Pedir m y n, validar que sean positivos
+Paso 4. Para i de 1 hasta m, para j de 1 hasta n: pedir A(i,j)
+Paso 5. Para i de 1 hasta m, para j de 1 hasta n: pedir B(i,j)
+Paso 6. Para i de 1 hasta m, para j de 1 hasta n: C(i,j) = A(i,j) + B(i,j)
+Paso 7. Para i de 1 hasta m: mostrar fila i de C
+Paso 8. Esperar Enter, Fin

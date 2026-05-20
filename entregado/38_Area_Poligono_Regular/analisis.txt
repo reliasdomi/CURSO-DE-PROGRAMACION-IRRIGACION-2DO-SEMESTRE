@@ -1,0 +1,15 @@
+ANALISIS:
+El programa calcula el area de cualquier poligono regular dado el numero de lados y la longitud de cada lado. Un poligono regular tiene todos sus lados iguales y todos sus angulos iguales.
+
+DATOS DE ENTRADA:
+nlados: numero de lados del poligono, debe ser 3 o mas
+lado: longitud de cada lado, positiva
+
+PROCESO:
+Se usa la formula general para poligonos regulares: area = (N * lado^2) / (4 * TAN(PI/N)). Se calcula PI como 4*ATN(1) que es la forma de obtener pi en QB64. La funcion TAN calcula la tangente del angulo.
+
+DATOS DE SALIDA:
+area: el area del poligono regular
+
+RESTRICCIONES:
+El numero de lados debe ser 3 o mas. El lado debe ser positivo. Con nlados=3 da un triangulo equilatero, con 4 un cuadrado, etc.

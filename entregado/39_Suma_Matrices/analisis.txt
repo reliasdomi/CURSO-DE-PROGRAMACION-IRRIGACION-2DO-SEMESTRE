@@ -1,0 +1,17 @@
+ANALISIS:
+El programa suma dos matrices del mismo tamaño. La suma de matrices se hace elemento por elemento: cada elemento de C es la suma del elemento correspondiente de A mas el de B.
+
+DATOS DE ENTRADA:
+m: numero de filas de ambas matrices
+n: numero de columnas de ambas matrices
+A(i,j): elementos de la primera matriz
+B(i,j): elementos de la segunda matriz
+
+PROCESO:
+Se leen los elementos de A con ciclos FOR anidados. Luego se leen los de B de la misma forma. Finalmente se calcula C(i,j) = A(i,j) + B(i,j) para cada posicion. Se muestran los resultados fila por fila.
+
+DATOS DE SALIDA:
+C(i,j): la matriz resultado de la suma
+
+RESTRICCIONES:
+Las dos matrices deben tener el mismo numero de filas y columnas porque eso es condicion para poder sumarlas. M y N deben ser positivos.

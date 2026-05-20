@@ -1,0 +1,14 @@
+Paso 1. Inicio
+Paso 2. Declarar n, i, sx, sy, sxy, sx2, a, b y arreglos x, y
+Paso 3. Pedir n, validar n > 1
+Paso 4. Para i de 1 hasta n: pedir x(i) y y(i)
+Paso 5. Inicializar sx=0, sy=0, sxy=0, sx2=0
+Paso 6. Para i de 1 hasta n:
+   sx = sx + x(i)
+   sy = sy + y(i)
+   sxy = sxy + x(i)*y(i)
+   sx2 = sx2 + x(i)*x(i)
+Paso 7. Calcular b = (n*sxy - sx*sy) / (n*sx2 - sx*sx)
+Paso 8. Calcular a = (sy - b*sx) / n
+Paso 9. Mostrar ecuacion y = a + bx
+Paso 10. Esperar Enter, Fin

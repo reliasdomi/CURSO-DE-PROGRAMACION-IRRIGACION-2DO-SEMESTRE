@@ -1,0 +1,15 @@
+ANALISIS:
+El programa calcula el promedio de estatura de todo el grupo. La logica es igual al programa 30 pero usando el arreglo est en lugar del arreglo edad.
+
+DATOS DE ENTRADA:
+n: numero de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se suman todas las estaturas y se divide entre N. No hay filtro de sexo, se consideran todos los miembros del grupo.
+
+DATOS DE SALIDA:
+prom: estatura promedio del grupo en metros
+
+RESTRICCIONES:
+N mayor que cero. Las estaturas deben ser positivas.

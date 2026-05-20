@@ -1,0 +1,17 @@
+ANALISIS:
+El programa busca la estatura mayor y la menor entre las mujeres del grupo. Se filtra por sexo femenino y se comparan las estaturas de ese subconjunto.
+
+DATOS DE ENTRADA:
+n: numero de personas en el grupo
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se usa la variable encontro para manejar la primera mujer encontrada. Con ella se inicializan may y men. Las siguientes mujeres se comparan contra esos valores. Si no hay mujeres en el grupo se muestra un aviso.
+
+DATOS DE SALIDA:
+may: estatura mas alta entre las mujeres
+men: estatura mas baja entre las mujeres
+O mensaje si no hay mujeres.
+
+RESTRICCIONES:
+Las estaturas deben ser positivas en metros. N mayor que cero.

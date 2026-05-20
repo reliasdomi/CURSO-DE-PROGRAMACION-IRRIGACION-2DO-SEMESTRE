@@ -1,0 +1,7 @@
+Paso 1. Inicio
+Paso 2. Declarar m, n, i, j, matrices A(m,n) y T(n,m)
+Paso 3. Pedir m y n, validar positivos
+Paso 4. Para i de 1 hasta m, para j de 1 hasta n: pedir A(i,j)
+Paso 5. Para i de 1 hasta m, para j de 1 hasta n: T(j,i) = A(i,j)
+Paso 6. Para i de 1 hasta n: mostrar fila i de T
+Paso 7. Esperar Enter, Fin

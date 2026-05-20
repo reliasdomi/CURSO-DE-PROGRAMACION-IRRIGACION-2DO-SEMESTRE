@@ -1,0 +1,8 @@
+Paso 1. Inicio
+Paso 2. Declarar m, n, i, j, matrices A, B, C
+Paso 3. Pedir m y n, validar positivos
+Paso 4. Leer todos los elementos de A
+Paso 5. Leer todos los elementos de B
+Paso 6. Para i de 1 hasta m, para j de 1 hasta n: C(i,j) = A(i,j) - B(i,j)
+Paso 7. Mostrar C fila por fila
+Paso 8. Esperar Enter, Fin

@@ -1,0 +1,10 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar variables r (radio), A (area), C (circunferencia), PI = 3.14159
+Paso 3. Mostrar titulo
+Paso 4. Pedir radio r al usuario
+Paso 5. Si r <= 0, mostrar error y repetir Paso 4
+Paso 6. Calcular A = PI * r * r
+Paso 7. Calcular C = 2 * PI * r
+Paso 8. Mostrar A y C
+Paso 9. Esperar Enter
+Paso 10. Fin del programa

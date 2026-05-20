@@ -1,0 +1,17 @@
+ANALISIS:
+El programa calcula la mediana de un conjunto de datos. La mediana es el valor central cuando los datos estan ordenados. Es diferente de la media, o sea no es el promedio sino el dato del medio.
+
+DATOS DE ENTRADA:
+n: cantidad de datos, mayor que cero
+datos(i): los n valores numericos
+
+PROCESO:
+Primero se leen los datos. Luego se ordenan de menor a mayor usando el metodo de burbuja. Una vez ordenados se busca el centro.
+1. Si n es impar, la mediana es el elemento en la posicion (n+1)/2
+2. Si n es par, la mediana es el promedio de los dos elementos centrales: posiciones n/2 y n/2 + 1
+
+DATOS DE SALIDA:
+med: el valor de la mediana
+
+RESTRICCIONES:
+N debe ser mayor que cero. El arreglo se ordena internamente, el usuario no necesita ingresar los datos ordenados.

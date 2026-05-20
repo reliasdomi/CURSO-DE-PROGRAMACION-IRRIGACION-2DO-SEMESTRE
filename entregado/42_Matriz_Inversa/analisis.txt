@@ -1,0 +1,15 @@
+ANALISIS:
+El programa calcula la inversa de una matriz cuadrada de 2x2. La inversa de una matriz A es la matriz que multiplicada por A da la identidad. Solo existe si el determinante es diferente de cero.
+
+DATOS DE ENTRADA:
+A(i,j): los 4 elementos de la matriz 2x2
+
+PROCESO:
+Primero se calcula el determinante: det = A(1,1)*A(2,2) - A(1,2)*A(2,1). Si det es cero la matriz no tiene inversa. Si det no es cero, se calcula la inversa usando la formula para matrices 2x2: se intercambian los elementos de la diagonal, se niegan los otros dos, y todo se divide entre el determinante.
+
+DATOS DE SALIDA:
+det: el valor del determinante
+inv(i,j): la matriz inversa, o mensaje de que no existe
+
+RESTRICCIONES:
+La matriz debe ser 2x2. El determinante no puede ser cero. Si det=0 se avisa y no se calcula la inversa.

@@ -1,0 +1,15 @@
+ANALISIS:
+Este programa calcula el area de un triangulo usando la formula clasica: base por altura entre dos. Solo calcula el area, no el perimetro, porque para el perimetro necesitariamos los tres lados.
+
+DATOS DE ENTRADA:
+b: la base del triangulo, debe ser mayor que cero
+h: la altura perpendicular del triangulo, tambien positiva
+
+PROCESO:
+Se aplica la formula A = (b * h) / 2. Antes de calcular se valida que ambos valores sean positivos, o sea mayores que cero.
+
+DATOS DE SALIDA:
+A: el area del triangulo
+
+RESTRICCIONES:
+La base y la altura deben ser numeros positivos. Si alguno es cero o negativo el programa lo rechaza y pide el dato nuevamente.

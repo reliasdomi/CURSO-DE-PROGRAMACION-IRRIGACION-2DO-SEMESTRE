@@ -1,0 +1,17 @@
+ANALISIS:
+Igual que el programa 20 pero para hombres. Se filtran los registros donde sex$(i) = "H" y entre esos se busca la edad mayor y la menor.
+
+DATOS DE ENTRADA:
+n: numero de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se usa la variable encontro para manejar la primera inicializacion. Con el primer hombre se establecen may y men. Los siguientes hombres se comparan. Si no hay hombres se muestra aviso.
+
+DATOS DE SALIDA:
+may: edad mayor de los hombres
+men: edad menor de los hombres
+O mensaje si no hay hombres.
+
+RESTRICCIONES:
+N mayor que cero. Se valida que existan hombres antes de mostrar resultados.

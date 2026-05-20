@@ -1,0 +1,17 @@
+ANALISIS:
+El programa calcula la resta de dos matrices del mismo tamaño. La resta se hace elemento por elemento igual que la suma pero ahora se resta B de A.
+
+DATOS DE ENTRADA:
+m: numero de filas
+n: numero de columnas
+A(i,j): elementos de la primera matriz
+B(i,j): elementos de la segunda matriz
+
+PROCESO:
+Se leen A y B con ciclos dobles. Luego C(i,j) = A(i,j) - B(i,j) para cada posicion. Se muestra C fila por fila.
+
+DATOS DE SALIDA:
+C(i,j): la matriz diferencia A menos B
+
+RESTRICCIONES:
+Mismas dimensiones para A y B. M y N positivos.

@@ -1,0 +1,15 @@
+ANALISIS:
+Este programa calcula el area y perimetro de un cuadrado. Un cuadrado tiene todos sus lados iguales, o sea que solo necesitamos un dato para calcularlo todo.
+
+DATOS DE ENTRADA:
+L: la longitud del lado del cuadrado. Debe ser mayor que cero porque un lado negativo no tiene sentido geometrico.
+
+PROCESO:
+El area se calcula multiplicando el lado por si mismo (L al cuadrado). El perimetro es la suma de los cuatro lados iguales, es decir 4 veces L. Se valida que L sea positivo antes de operar.
+
+DATOS DE SALIDA:
+A: el area del cuadrado
+P: el perimetro del cuadrado
+
+RESTRICCIONES:
+El lado L debe ser un numero mayor que cero. Si el usuario da un valor negativo o cero, el programa lo vuelve a pedir.

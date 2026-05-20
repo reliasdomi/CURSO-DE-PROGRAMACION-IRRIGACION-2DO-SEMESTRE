@@ -1,0 +1,15 @@
+ANALISIS:
+El programa cuenta los hombres que son mayores de edad en el grupo. Combina la condicion de sexo masculino con la condicion de edad mayor o igual a 18.
+
+DATOS DE ENTRADA:
+n: numero de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se recorre el arreglo con un ciclo FOR. Para cada persona se evaluan dos condiciones con AND: que sea hombre y que tenga 18 o mas. Si ambas son verdaderas se incrementa el contador.
+
+DATOS DE SALIDA:
+cont: numero de hombres mayores de edad
+
+RESTRICCIONES:
+N mayor que cero.

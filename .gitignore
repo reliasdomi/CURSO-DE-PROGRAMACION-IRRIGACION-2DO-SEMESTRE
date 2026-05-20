@@ -1,0 +1,25 @@
+# Ejecutables y binarios compilados
+*.exe
+*.o
+*.obj
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Ejecutables generados sin extension
+programa
+MENU_FIGURAS
+
+# Lanzadores locales que dependen de binarios no incluidos
+*.command
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Temporales de editores
+*.tmp
+*.bak
+*~

@@ -1,0 +1,12 @@
+Paso 1. Inicio
+Paso 2. Declarar n, i, may, men, encontro, arreglos
+Paso 3. Pedir n, validar n > 0
+Paso 4. Para i de 1 hasta n: pedir datos, sex$(i) = UCASE$(sex$(i))
+Paso 5. encontro = 0
+Paso 6. Para i de 1 hasta n:
+   Si sex$(i) = "M":
+      Si encontro = 0: may = est(i), men = est(i), encontro = 1
+      Si no: actualizar may y men con est(i)
+Paso 7. Si encontro = 1: mostrar may y men
+Paso 8. Si encontro = 0: "No hay mujeres"
+Paso 9. Esperar Enter, Fin

@@ -1,0 +1,12 @@
+Paso 1. Inicio
+Paso 2. Declarar i, j, det, matrices A(2,2) e inv(2,2)
+Paso 3. Pedir los 4 elementos de A
+Paso 4. Calcular det = A(1,1)*A(2,2) - A(1,2)*A(2,1)
+Paso 5. Si det = 0: mostrar "No tiene inversa" y terminar
+Paso 6. Si det <> 0:
+   inv(1,1) = A(2,2) / det
+   inv(1,2) = -A(1,2) / det
+   inv(2,1) = -A(2,1) / det
+   inv(2,2) = A(1,1) / det
+Paso 7. Mostrar det y la matriz inversa
+Paso 8. Esperar Enter, Fin

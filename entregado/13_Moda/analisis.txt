@@ -1,0 +1,16 @@
+ANALISIS:
+El programa calcula la moda de un conjunto de datos. La moda es el valor que mas se repite. Si todos los datos son distintos se muestra el primero, ya que todos tienen frecuencia 1.
+
+DATOS DE ENTRADA:
+n: cantidad de datos, positivo
+datos(i): los n valores numericos
+
+PROCESO:
+Para cada dato se cuenta cuantas veces aparece en el arreglo usando un ciclo doble. Se guarda el dato con la frecuencia mas alta. Si hay empate, se queda con el primero que se encontro.
+
+DATOS DE SALIDA:
+moda: el valor que mas se repite
+maxFreq: cuantas veces aparece la moda
+
+RESTRICCIONES:
+N debe ser mayor que cero. El algoritmo tiene complejidad O(n²) o sea puede ser lento con muchos datos.
