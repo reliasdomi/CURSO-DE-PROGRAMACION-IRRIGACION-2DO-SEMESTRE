@@ -8,6 +8,15 @@
 *.so
 *.dylib
 
+# Unidades compiladas Pascal (Delphi / Free Pascal) - atadas al compilador
+*.dcu
+*.ppu
+*.res
+*.dproj.local
+*.identcache
+__history/
+__recovery/
+
 # Ejecutables generados sin extension
 programa
 MENU_FIGURAS
@@ -23,3 +32,4 @@ Thumbs.db
 *.tmp
 *.bak
 *~
+*.~*

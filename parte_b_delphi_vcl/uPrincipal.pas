@@ -764,15 +764,15 @@ begin
          ScaffoldEntradas('6. Trapecio', ['Base mayor (>0):', 'Base menor (>0):', 'Altura (>0):', 'Lado 1 (>0):', 'Lado 2 (>0):'], True);
          FAccion :=
            procedure
-           var bM, bm, h, l1, l2: Double; r: TResFigura;
+           var baseMay, baseMen, h, l1, l2: Double; r: TResFigura;
            begin
-             if not ValEdit(0, bM) or not ValEdit(1, bm) or not ValEdit(2, h)
+             if not ValEdit(0, baseMay) or not ValEdit(1, baseMen) or not ValEdit(2, h)
                 or not ValEdit(3, l1) or not ValEdit(4, l2) then
                raise Exception.Create('Capture las 5 medidas (>0).');
-             r := FigTrapecio(bM, bm, h, l1, l2);
+             r := FigTrapecio(baseMay, baseMen, h, l1, l2);
              FMemo.Lines.Add('Area      = ' + F(r.Area));
              FMemo.Lines.Add('Perimetro = ' + F(r.Perimetro));
-             FFigTipo := 6; FFigP[0] := bM; FFigP[1] := bm; FFigP[2] := h;
+             FFigTipo := 6; FFigP[0] := baseMay; FFigP[1] := baseMen; FFigP[2] := h;
              FFigInfo := 'Area=' + F(r.Area) + '  Perim=' + F(r.Perimetro);
              FPaintBox.Invalidate;
            end;
