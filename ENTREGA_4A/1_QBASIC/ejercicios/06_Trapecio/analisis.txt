@@ -1,0 +1,16 @@
+ANALISIS:
+El programa calcula el area de un trapecio. El trapecio tiene dos bases paralelas de diferente longitud y una altura. La formula usa las dos bases y la altura.
+
+DATOS DE ENTRADA:
+b1: la base mayor del trapecio, positiva
+b2: la base menor del trapecio, positiva
+h: la altura del trapecio, positiva
+
+PROCESO:
+Se suman las dos bases, se multiplica por la altura y se divide entre dos. O sea A = (b1 + b2) * h / 2. Se validan los tres datos de entrada.
+
+DATOS DE SALIDA:
+A: el area del trapecio
+
+RESTRICCIONES:
+Los tres valores deben ser mayores que cero. El programa valida cada uno antes de continuar con el calculo.

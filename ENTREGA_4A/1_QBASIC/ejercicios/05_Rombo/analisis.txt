@@ -1,0 +1,15 @@
+ANALISIS:
+Este programa calcula el area de un rombo. El rombo es un cuadrilatero con todos los lados iguales pero los angulos no necesariamente iguales. Para calcular su area se usan las dos diagonales.
+
+DATOS DE ENTRADA:
+d1: la diagonal mayor del rombo, debe ser positiva
+d2: la diagonal menor del rombo, tambien positiva
+
+PROCESO:
+Se aplica la formula A = (d1 * d2) / 2. O sea, se multiplican las dos diagonales y se divide entre dos. Se validan ambas diagonales antes de calcular.
+
+DATOS DE SALIDA:
+A: el area del rombo
+
+RESTRICCIONES:
+Las dos diagonales deben ser numeros mayores que cero. El programa no acepta valores negativos ni cero.

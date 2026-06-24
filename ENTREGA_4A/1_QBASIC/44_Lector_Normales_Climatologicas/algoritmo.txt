@@ -1,0 +1,28 @@
+Paso 1. Inicio del programa.
+Paso 2. Declarar arreglos para nombres de variables, meses y datos numericos.
+Paso 3. Cargar los nombres de los meses.
+Paso 4. Pedir al usuario el nombre del archivo TXT de normales climatologicas.
+Paso 5. Verificar que el archivo exista.
+Paso 6. Abrir el archivo en modo INPUT.
+Paso 7. Leer el archivo linea por linea con LINE INPUT.
+Paso 8. Limpiar espacios y tabuladores de cada linea.
+Paso 9. Detectar el periodo cuando aparezca NORMAL CLIMAT.
+Paso 10. Detectar metadatos por etiquetas: estacion, nombre, estado, municipio, situacion, latitud, longitud y altitud.
+Paso 11. Guardar el ultimo titulo de seccion climatologica encontrado.
+Paso 12. Cuando aparezca MESES, asignar el ultimo titulo como seccion actual.
+Paso 13. Cuando una linea empiece con NORMAL, extraer los trece valores numericos.
+Paso 14. Guardar la variable detectada en nombreVariable$(n).
+Paso 15. Guardar los valores en datos(n, 1) a datos(n, 13).
+Paso 16. Cerrar el archivo.
+Paso 17. Validar que el archivo parezca una normal climatologica y que haya al menos una fila NORMAL.
+Paso 18. Mostrar el menu principal.
+Paso 19. Si el usuario elige datos generales, imprimir metadatos y numero de variables.
+Paso 20. Si el usuario elige ver datos mensuales, pedir una variable y mostrar sus valores.
+Paso 21. Si el usuario elige promedio mensual, sumar los doce meses y dividir entre doce.
+Paso 22. Si el usuario elige mayor y menor, recorrer los doce meses y comparar valores.
+Paso 23. Si el usuario elige valor anual, mostrar datos(sel, 13).
+Paso 24. Si el usuario elige comparar variables, pedir dos variables y mostrar la diferencia mensual y anual.
+Paso 25. Si el usuario elige mostrar todas las variables, imprimirlas una por una.
+Paso 26. Si el usuario elige cargar otro archivo, regresar a la captura de archivo sin reiniciar el programa.
+Paso 27. Repetir el menu hasta que el usuario elija salir.
+Paso 28. Fin del programa.

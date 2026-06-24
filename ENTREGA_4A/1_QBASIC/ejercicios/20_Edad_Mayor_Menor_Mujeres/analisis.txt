@@ -1,0 +1,17 @@
+ANALISIS:
+El programa encuentra la edad mayor y menor pero solo considerando a las mujeres del grupo. Si no hay mujeres se muestra un mensaje indicandolo.
+
+DATOS DE ENTRADA:
+n: total de personas en el grupo
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se usa una variable "encontro" para saber si ya se proceso la primera mujer. Con la primera mujer se inicializan may y men. Las siguientes mujeres se comparan con los valores actuales. Si al terminar el ciclo no se encontro ninguna mujer, se avisa.
+
+DATOS DE SALIDA:
+may: edad mayor entre las mujeres
+men: edad menor entre las mujeres
+O mensaje de que no hay mujeres.
+
+RESTRICCIONES:
+N mayor que cero. Si no hay mujeres el programa lo indica en vez de mostrar resultados sin sentido.

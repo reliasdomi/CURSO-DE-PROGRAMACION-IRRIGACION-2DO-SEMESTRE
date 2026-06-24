@@ -1,0 +1,15 @@
+ANALISIS:
+El programa cuenta cuantas personas del grupo son mayores de edad, o sea tienen 18 años o mas. Es un conteo simple con condicion sobre la edad.
+
+DATOS DE ENTRADA:
+n: numero de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se recorre el arreglo de edades. Por cada persona cuya edad sea mayor o igual a 18 se incrementa el contador. Al final se muestra el total.
+
+DATOS DE SALIDA:
+cont: cantidad de personas con 18 años o mas
+
+RESTRICCIONES:
+N mayor que cero. La edad debe ser un numero entero valido.

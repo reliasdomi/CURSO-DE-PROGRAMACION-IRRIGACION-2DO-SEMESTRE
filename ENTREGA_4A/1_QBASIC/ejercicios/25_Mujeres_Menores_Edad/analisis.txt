@@ -1,0 +1,15 @@
+ANALISIS:
+Similar al programa 24 pero la condicion de edad se invierte: ahora se cuentan las mujeres que tienen menos de 18 años, o sea menores de edad.
+
+DATOS DE ENTRADA:
+n: numero de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se combinan las condiciones sex$(i)="M" y edad(i)<18 con el operador AND. Solo se cuenta si ambas son verdaderas simultaneamente.
+
+DATOS DE SALIDA:
+cont: numero de mujeres menores de edad
+
+RESTRICCIONES:
+N mayor que cero.

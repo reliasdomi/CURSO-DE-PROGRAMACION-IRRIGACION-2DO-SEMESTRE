@@ -1,0 +1,16 @@
+ANALISIS:
+El programa calcula la media aritmetica de un conjunto de N datos numericos. La media es el promedio, o sea la suma de todos los datos dividida entre la cantidad.
+
+DATOS DE ENTRADA:
+n: cantidad de datos a ingresar, debe ser mayor que cero
+datos(i): cada uno de los n valores numericos
+
+PROCESO:
+Se declara un arreglo de n elementos. Se recorren con un ciclo FOR para leer los datos del usuario. Luego se hace otro ciclo para sumarlos todos. Finalmente se divide la suma entre n para obtener el promedio.
+
+DATOS DE SALIDA:
+sum: la suma total de todos los datos
+prom: la media aritmetica
+
+RESTRICCIONES:
+N debe ser mayor que cero. Si N es cero habria division entre cero que es un error matematico.

@@ -1,0 +1,12 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar n, sum, prom, i y el arreglo datos
+Paso 3. Pedir N al usuario
+Paso 4. Si N <= 0, mostrar error y repetir Paso 3
+Paso 5. Declarar arreglo datos de tamaño N
+Paso 6. Para i de 1 hasta N: pedir datos(i) al usuario
+Paso 7. Inicializar sum = 0
+Paso 8. Para i de 1 hasta N: sum = sum + datos(i)
+Paso 9. Calcular prom = sum / N
+Paso 10. Mostrar sum y prom
+Paso 11. Esperar Enter
+Paso 12. Fin del programa

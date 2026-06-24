@@ -1,0 +1,18 @@
+ANALISIS:
+El programa calcula la recta de regresion lineal que mejor se ajusta a un conjunto de pares de datos (x, y). La recta tiene la forma y = a + bx donde a es el intercepto y b es la pendiente.
+
+DATOS DE ENTRADA:
+n: numero de pares de datos, debe ser mayor que 1
+x(i): los valores de la variable independiente
+y(i): los valores de la variable dependiente
+
+PROCESO:
+Se calculan cuatro sumas: suma de x, suma de y, suma de x por y, y suma de x cuadrado. Con esas sumas se aplica la formula de minimos cuadrados para obtener b (pendiente) y despues a (intercepto).
+
+DATOS DE SALIDA:
+a: el intercepto de la recta con el eje y
+b: la pendiente de la recta
+La ecuacion completa en formato y = a + bx
+
+RESTRICCIONES:
+Se necesitan al menos 2 pares de datos. Si todos los valores de x son iguales el denominador sera cero y habria error.

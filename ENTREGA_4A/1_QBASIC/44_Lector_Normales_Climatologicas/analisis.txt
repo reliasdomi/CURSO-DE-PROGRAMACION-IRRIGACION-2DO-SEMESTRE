@@ -1,0 +1,47 @@
+ANALISIS:
+El programa lee archivos TXT oficiales de normales climatologicas del Servicio Meteorologico Nacional / CONAGUA. A diferencia del programa de Calera, no depende de una estacion fija ni de un archivo CSV. El usuario escribe el nombre del archivo local y el programa detecta los datos generales de la estacion, el periodo y las variables climatologicas disponibles.
+
+DATOS DE ENTRADA:
+archivo: nombre del archivo TXT de normales climatologicas.
+op: opcion seleccionada en el menu.
+sel, sel1, sel2: variables seleccionadas para consulta o comparacion.
+
+ARCHIVOS DE PRUEBA INCLUIDOS:
+fuente_smn.txt: copia de la fuente oficial usada en el programa de Calera.
+calera.txt: Normal 1991-2020 de Calera, Zacatecas.
+aguascalientes.txt: Normal 1991-2020 de Aguascalientes (OBS).
+guadalajara.txt: Normal 1991-2020 de Guadalajara, Jalisco.
+san_luis_potosi.txt: Normal 1991-2020 de San Luis Potosi.
+oaxaca_de_juarez.txt: Normal 1991-2020 de Oaxaca de Juarez.
+nor9120_32003.txt: Normal 1991-2020 de Calera, Zacatecas.
+nor9120_01001.txt: Normal 1991-2020 de Aguascalientes (OBS).
+nor7100_01001.txt: Normal 1971-2000 de Aguascalientes (OBS).
+
+PROCESO:
+El programa abre el archivo con LINE INPUT y revisa cada renglon. Cuando encuentra etiquetas con dos puntos, guarda metadatos como estacion, nombre, estado, municipio, situacion, latitud, longitud y altitud. Cuando encuentra una linea con NORMAL CLIMAT, guarda el periodo.
+
+Para detectar variables, el programa conserva el ultimo titulo de seccion leido. Al encontrar MESES, considera que ese titulo corresponde a una tabla climatologica. Al encontrar una fila que inicia con NORMAL, toma los trece valores numericos: doce meses y el valor anual. Cada seccion encontrada se guarda en nombreVariable$(n) y datos(n, 13).
+
+DATOS DE SALIDA:
+Datos generales de la estacion.
+Tabla mensual y anual de una variable.
+Promedio mensual de una variable.
+Mes con valor mayor y menor.
+Valor anual reportado por el SMN.
+Comparacion mensual entre dos variables.
+Listado de todas las variables detectadas.
+
+RESTRICCIONES:
+El archivo debe ser TXT con formato de normales climatologicas SMN/CONAGUA. No se leen CSV ni Excel. El archivo debe estar en la misma carpeta del programa o se debe escribir su ruta.
+
+MANEJO DE ERRORES:
+Si el archivo no existe, el programa muestra un error claro.
+Si no se reconoce como normal climatologica del SMN, el programa muestra un error.
+Si no encuentra ninguna fila NORMAL con trece valores, el programa muestra un error.
+Si una variable no existe en el archivo, no aparece en el menu.
+
+FUENTES:
+Servicio Meteorologico Nacional / CONAGUA.
+https://smn.conagua.gob.mx/tools/RESOURCES/Normales_Climatologicas/Normales9120/zac/nor9120_32003.txt
+https://smn.conagua.gob.mx/tools/RESOURCES/Normales_Climatologicas/Normales9120/ags/nor9120_01001.txt
+https://smn.conagua.gob.mx/tools/RESOURCES/Normales_Climatologicas/Normales7100/ags/nor7100_01001.txt

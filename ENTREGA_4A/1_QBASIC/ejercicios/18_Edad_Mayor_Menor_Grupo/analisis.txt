@@ -1,0 +1,16 @@
+ANALISIS:
+El programa encuentra la edad mayor y la edad menor dentro de un grupo de personas. Se comparan todas las edades del arreglo para encontrar los valores extremos.
+
+DATOS DE ENTRADA:
+n: numero de personas del grupo
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se inicializan may y men con la primera edad. Luego se recorre el arreglo desde el segundo elemento comparando cada edad con may y men. Si se encuentra una edad mayor se actualiza may, si se encuentra una menor se actualiza men.
+
+DATOS DE SALIDA:
+may: la edad mas alta del grupo
+men: la edad mas baja del grupo
+
+RESTRICCIONES:
+El grupo debe tener al menos una persona (n > 0). No hay restriccion sobre el rango de edades.

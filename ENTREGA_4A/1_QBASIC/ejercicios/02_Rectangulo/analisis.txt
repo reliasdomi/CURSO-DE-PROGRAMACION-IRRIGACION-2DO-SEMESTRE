@@ -1,0 +1,16 @@
+ANALISIS:
+El programa calcula el area y perimetro de un rectangulo. A diferencia del cuadrado, el rectangulo tiene dos pares de lados iguales, o sea que necesitamos dos datos: la base y la altura.
+
+DATOS DE ENTRADA:
+b: la base del rectangulo, debe ser mayor que cero
+h: la altura del rectangulo, tambien debe ser positiva
+
+PROCESO:
+El area es base por altura. El perimetro se obtiene sumando todos los lados, es decir 2 veces la suma de base mas altura. Se validan ambas entradas antes de operar.
+
+DATOS DE SALIDA:
+A: area del rectangulo
+P: perimetro del rectangulo
+
+RESTRICCIONES:
+Tanto la base como la altura deben ser numeros positivos. El programa verifica esto con un ciclo y repite la solicitud si el valor es invalido.

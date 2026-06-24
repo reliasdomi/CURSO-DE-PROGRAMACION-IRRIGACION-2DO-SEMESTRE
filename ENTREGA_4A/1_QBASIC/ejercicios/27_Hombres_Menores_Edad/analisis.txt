@@ -1,0 +1,15 @@
+ANALISIS:
+El programa cuenta los hombres menores de edad del grupo. Es el complemento del programa 26: misma condicion de sexo masculino pero ahora con edad menor que 18.
+
+DATOS DE ENTRADA:
+n: numero de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Ciclo FOR sobre el arreglo, condicion AND combinando sex$(i)="H" y edad(i)<18. Conteo simple.
+
+DATOS DE SALIDA:
+cont: numero de hombres menores de edad
+
+RESTRICCIONES:
+N mayor que cero.

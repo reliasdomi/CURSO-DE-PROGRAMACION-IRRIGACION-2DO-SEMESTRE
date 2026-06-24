@@ -1,0 +1,15 @@
+ANALISIS:
+El programa cuenta cuantas mujeres del grupo son mayores de edad. Se combinan dos condiciones: que el sexo sea femenino y que la edad sea 18 o mas.
+
+DATOS DE ENTRADA:
+n: numero de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se recorre el arreglo y para cada persona se verifica que sex$(i) sea "M" Y que edad(i) sea mayor o igual a 18. Solo si se cumplen ambas condiciones se incrementa el contador.
+
+DATOS DE SALIDA:
+cont: numero de mujeres mayores de edad
+
+RESTRICCIONES:
+N mayor que cero. El operador AND requiere que ambas condiciones sean verdaderas.

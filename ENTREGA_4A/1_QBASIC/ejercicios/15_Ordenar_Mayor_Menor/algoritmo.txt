@@ -1,0 +1,10 @@
+Paso 1. Inicio
+Paso 2. Declarar n, i, j, temp, arreglo A
+Paso 3. Pedir n, validar n > 0
+Paso 4. Para i de 1 hasta n: pedir A(i)
+Paso 5. Para i de 1 hasta n-1:
+   Paso 5a. Para j de 1 hasta n-i:
+   Paso 5b. Si A(j) < A(j+1): intercambiar con temp
+Paso 6. Mostrar A(i) para cada i
+Paso 7. Esperar Enter
+Paso 8. Fin

@@ -1,0 +1,10 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar n, i, j, temp y arreglo A
+Paso 3. Pedir n, validar n > 0
+Paso 4. Para i de 1 hasta n: pedir A(i)
+Paso 5. Para i de 1 hasta n-1 (pasadas de burbuja):
+   Paso 5a. Para j de 1 hasta n-i:
+   Paso 5b. Si A(j) > A(j+1): temp=A(j), A(j)=A(j+1), A(j+1)=temp
+Paso 6. Para i de 1 hasta n: mostrar A(i)
+Paso 7. Esperar Enter
+Paso 8. Fin del programa

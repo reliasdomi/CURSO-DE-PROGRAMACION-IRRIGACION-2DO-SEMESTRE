@@ -1,0 +1,11 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar variables b (base), h (altura), A (area)
+Paso 3. Mostrar titulo del programa
+Paso 4. Pedir al usuario la base b
+Paso 5. Si b <= 0, mostrar error y repetir Paso 4
+Paso 6. Pedir al usuario la altura h
+Paso 7. Si h <= 0, mostrar error y repetir Paso 6
+Paso 8. Calcular A = (b * h) / 2
+Paso 9. Mostrar el area A
+Paso 10. Esperar que el usuario presione Enter
+Paso 11. Fin del programa

@@ -1,0 +1,17 @@
+ANALISIS:
+El programa recibe tres numeros y determina cual es el mayor. Se asume que el mayor es el primero y luego se compara con los otros dos para corregir si es necesario.
+
+DATOS DE ENTRADA:
+a: primer numero
+b: segundo numero
+c: tercer numero
+Pueden ser cualquier numero real.
+
+PROCESO:
+Se empieza asumiendo que el mayor es a. Luego se compara con b: si b es mayor se actualiza la variable may. Despues se compara may con c. Al final may tiene el valor mas grande de los tres.
+
+DATOS DE SALIDA:
+may: el numero mayor de los tres ingresados
+
+RESTRICCIONES:
+No hay restricciones especiales. Si hay numeros iguales, el programa muestra uno de ellos como mayor (es decir cualquiera de los que comparten el valor maximo).

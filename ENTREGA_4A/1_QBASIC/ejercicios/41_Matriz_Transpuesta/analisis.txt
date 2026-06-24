@@ -1,0 +1,16 @@
+ANALISIS:
+El programa calcula la transpuesta de una matriz. La transpuesta es una nueva matriz donde las filas originales se convierten en columnas, o sea se intercambian filas por columnas.
+
+DATOS DE ENTRADA:
+m: numero de filas de la matriz original
+n: numero de columnas de la matriz original
+A(i,j): los elementos de la matriz
+
+PROCESO:
+Se crea la matriz T con dimensiones invertidas: n filas y m columnas. La regla es T(j,i) = A(i,j), es decir el elemento en fila i columna j de A pasa a fila j columna i de T.
+
+DATOS DE SALIDA:
+T(i,j): la matriz transpuesta con dimensiones n x m
+
+RESTRICCIONES:
+M y N deben ser positivos. Si A es de m x n, la transpuesta es de n x m.

@@ -1,0 +1,15 @@
+ANALISIS:
+El programa cuenta cuantas personas son menores de edad, es decir tienen menos de 18 años. Es el complemento del programa 22.
+
+DATOS DE ENTRADA:
+n: numero de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se recorre el arreglo y se cuenta cada persona cuya edad sea estrictamente menor que 18. La condicion es edad(i) < 18 a diferencia del programa anterior que usaba >=18.
+
+DATOS DE SALIDA:
+cont: cantidad de menores de edad en el grupo
+
+RESTRICCIONES:
+N mayor que cero.

@@ -1,0 +1,14 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar variables a, b, c, disc, x1, x2
+Paso 3. Mostrar titulo
+Paso 4. Pedir coeficiente a
+Paso 5. Si a = 0, mostrar error y repetir Paso 4
+Paso 6. Pedir coeficiente b
+Paso 7. Pedir coeficiente c
+Paso 8. Calcular disc = b * b - 4 * a * c
+Paso 9. Si disc < 0, mostrar "No tiene raices reales" y saltar a Paso 13
+Paso 10. Si disc = 0, calcular x1 = -b / (2*a), mostrar x1 y saltar a Paso 13
+Paso 11. Si disc > 0, calcular x1 = (-b + SQR(disc)) / (2*a)
+Paso 12. Calcular x2 = (-b - SQR(disc)) / (2*a) y mostrar ambas raices
+Paso 13. Esperar Enter
+Paso 14. Fin del programa

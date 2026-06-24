@@ -1,0 +1,16 @@
+ANALISIS:
+El programa calcula la desviacion estandar muestral de un conjunto de datos. La desviacion estandar mide que tan dispersos estan los datos respecto al promedio, o sea que tan juntos o separados estan.
+
+DATOS DE ENTRADA:
+n: cantidad de datos, debe ser mayor que 1 para usar n-1 en el denominador
+datos(i): los n valores numericos
+
+PROCESO:
+Primero se calcula el promedio. Luego se calcula la suma de los cuadrados de las diferencias de cada dato menos el promedio. Finalmente se divide entre n-1 y se saca la raiz cuadrada con SQR.
+
+DATOS DE SALIDA:
+prom: el promedio de los datos
+desv: la desviacion estandar muestral
+
+RESTRICCIONES:
+N debe ser mayor que 1 porque se divide entre n-1. Si n=1 habria division entre cero.

@@ -1,0 +1,11 @@
+Paso 1. Inicio
+Paso 2. Declarar n, i, sum, prom, sumDif, desv, arreglo datos
+Paso 3. Pedir n, validar n > 1
+Paso 4. Para i de 1 hasta n: pedir datos(i)
+Paso 5. sum = 0; para i de 1 hasta n: sum = sum + datos(i)
+Paso 6. prom = sum / n
+Paso 7. sumDif = 0
+Paso 8. Para i de 1 hasta n: sumDif = sumDif + (datos(i) - prom)^2
+Paso 9. desv = SQR(sumDif / (n - 1))
+Paso 10. Mostrar prom y desv
+Paso 11. Esperar Enter, Fin

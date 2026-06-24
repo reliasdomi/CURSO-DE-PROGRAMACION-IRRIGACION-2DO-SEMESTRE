@@ -1,0 +1,12 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar n, i, j, cont, maxFreq, moda, arreglo datos
+Paso 3. Pedir n, validar n > 0
+Paso 4. Para i de 1 hasta n: pedir datos(i)
+Paso 5. Inicializar maxFreq = 0, moda = datos(1)
+Paso 6. Para i de 1 hasta n:
+   Paso 6a. cont = 0
+   Paso 6b. Para j de 1 hasta n: si datos(j) = datos(i), incrementar cont
+   Paso 6c. Si cont > maxFreq: maxFreq = cont, moda = datos(i)
+Paso 7. Mostrar moda y maxFreq
+Paso 8. Esperar Enter
+Paso 9. Fin del programa

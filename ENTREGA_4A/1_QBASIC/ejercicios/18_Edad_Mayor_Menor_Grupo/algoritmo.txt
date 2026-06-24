@@ -1,0 +1,11 @@
+Paso 1. Inicio
+Paso 2. Declarar n, i, may, men, arreglos nom$, sex$, edad, est
+Paso 3. Pedir n, validar n > 0
+Paso 4. Para i de 1 hasta n: pedir datos de persona i
+Paso 5. Asignar may = edad(1), men = edad(1)
+Paso 6. Para i de 2 hasta n:
+   Si edad(i) > may: may = edad(i)
+   Si edad(i) < men: men = edad(i)
+Paso 7. Mostrar may y men
+Paso 8. Esperar Enter
+Paso 9. Fin

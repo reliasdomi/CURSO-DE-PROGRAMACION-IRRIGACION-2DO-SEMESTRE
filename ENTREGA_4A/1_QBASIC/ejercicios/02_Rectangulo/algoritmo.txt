@@ -1,0 +1,12 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar variables b (base), h (altura), A (area), P (perimetro)
+Paso 3. Mostrar titulo del programa
+Paso 4. Pedir al usuario la base b
+Paso 5. Verificar que b sea mayor que cero; si no, repetir Paso 4
+Paso 6. Pedir al usuario la altura h
+Paso 7. Verificar que h sea mayor que cero; si no, repetir Paso 6
+Paso 8. Calcular A = b * h
+Paso 9. Calcular P = 2 * (b + h)
+Paso 10. Mostrar Area y Perimetro
+Paso 11. Esperar que el usuario presione Enter
+Paso 12. Fin del programa

@@ -1,0 +1,12 @@
+Paso 1. Inicio
+Paso 2. Declarar variables y arreglos
+Paso 3. Pedir n, validar n > 0
+Paso 4. Para i de 1 hasta n: pedir datos
+Paso 5. encontro = 0
+Paso 6. Para i de 1 hasta n:
+   Si sex$(i) = "H":
+      Si encontro = 0: may = est(i), men = est(i), encontro = 1
+      Si no: actualizar may y men
+Paso 7. Si encontro = 1: mostrar may y men
+Paso 8. Si no: "No hay hombres"
+Paso 9. Esperar Enter, Fin

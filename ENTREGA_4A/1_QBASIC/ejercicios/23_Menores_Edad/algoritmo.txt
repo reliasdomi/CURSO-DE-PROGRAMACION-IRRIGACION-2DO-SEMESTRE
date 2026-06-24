@@ -1,0 +1,8 @@
+Paso 1. Inicio
+Paso 2. Declarar variables y arreglos
+Paso 3. Pedir n, validar n > 0
+Paso 4. Para i de 1 hasta n: pedir datos
+Paso 5. cont = 0
+Paso 6. Para i de 1 hasta n: si edad(i) < 18 entonces cont = cont + 1
+Paso 7. Mostrar cont
+Paso 8. Esperar Enter, Fin

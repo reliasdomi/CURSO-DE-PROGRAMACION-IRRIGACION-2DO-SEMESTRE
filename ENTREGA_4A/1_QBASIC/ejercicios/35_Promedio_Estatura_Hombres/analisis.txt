@@ -1,0 +1,16 @@
+ANALISIS:
+El programa calcula el promedio de estatura de los hombres del grupo. Misma logica que el programa 34 pero filtrando por sexo masculino.
+
+DATOS DE ENTRADA:
+n: numero total de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se acumula est(i) cuando sex$(i)="H" y se cuenta en contH. El promedio se calcula solo si contH > 0.
+
+DATOS DE SALIDA:
+prom: promedio de estatura de los hombres
+contH: numero de hombres
+
+RESTRICCIONES:
+Se verifica contH > 0 antes de dividir.

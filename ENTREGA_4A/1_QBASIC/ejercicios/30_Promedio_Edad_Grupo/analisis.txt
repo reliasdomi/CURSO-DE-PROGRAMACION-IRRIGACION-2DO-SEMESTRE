@@ -1,0 +1,15 @@
+ANALISIS:
+El programa calcula el promedio de edad de todo el grupo sin distincion de sexo. Es un promedio simple de todas las edades ingresadas.
+
+DATOS DE ENTRADA:
+n: numero de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se suman todas las edades del arreglo con un ciclo FOR. Luego se divide la suma entre N para obtener el promedio. No hay filtro por sexo, se incluyen todos.
+
+DATOS DE SALIDA:
+prom: el promedio de edad del grupo en anos
+
+RESTRICCIONES:
+N mayor que cero para evitar division entre cero. Las edades deben ser numeros enteros positivos.

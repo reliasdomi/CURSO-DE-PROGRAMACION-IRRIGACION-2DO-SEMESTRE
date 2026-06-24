@@ -1,0 +1,13 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar n, i, j, temp, med y arreglo datos
+Paso 3. Pedir n, validar que n > 0
+Paso 4. Para i de 1 hasta n: pedir datos(i)
+Paso 5. Ordenar con burbuja ascendente:
+   Paso 5a. Para i de 1 hasta n-1
+   Paso 5b. Para j de 1 hasta n-i
+   Paso 5c. Si datos(j) > datos(j+1): intercambiar con variable temp
+Paso 6. Si n es impar: med = datos((n+1)/2)
+Paso 7. Si n es par: med = (datos(n/2) + datos(n/2+1)) / 2
+Paso 8. Mostrar med
+Paso 9. Esperar Enter
+Paso 10. Fin del programa

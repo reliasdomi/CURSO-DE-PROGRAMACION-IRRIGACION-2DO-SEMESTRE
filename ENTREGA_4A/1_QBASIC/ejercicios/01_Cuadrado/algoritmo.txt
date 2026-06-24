@@ -1,0 +1,12 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar variables L (lado), A (area), P (perimetro)
+Paso 3. Mostrar titulo "Calculo de Cuadrado"
+Paso 4. Pedir al usuario que ingrese el valor de L
+Paso 5. Verificar que L sea mayor que cero
+Paso 6. Si L es menor o igual a cero, mostrar mensaje de error y volver al Paso 4
+Paso 7. Calcular A = L * L
+Paso 8. Calcular P = 4 * L
+Paso 9. Mostrar el valor de A
+Paso 10. Mostrar el valor de P
+Paso 11. Esperar que el usuario presione Enter
+Paso 12. Fin del programa

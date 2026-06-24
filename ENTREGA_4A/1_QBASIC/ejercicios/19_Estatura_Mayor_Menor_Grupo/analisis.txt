@@ -1,0 +1,16 @@
+ANALISIS:
+Igual que el programa 18 pero ahora se buscan la estatura mayor y la menor del grupo. Se usa el mismo enfoque de inicializar con el primer valor y comparar con el resto.
+
+DATOS DE ENTRADA:
+n: numero de personas
+nom$(i), sex$(i), edad(i), est(i): datos completos de cada persona
+
+PROCESO:
+Se inicializa may y men con la primera estatura. Se recorre el arreglo comparando est(i) con may y men y actualizando segun corresponda.
+
+DATOS DE SALIDA:
+may: la estatura mas alta del grupo en metros
+men: la estatura mas baja del grupo en metros
+
+RESTRICCIONES:
+Las estaturas deben ser valores positivos en metros. N debe ser mayor que cero.

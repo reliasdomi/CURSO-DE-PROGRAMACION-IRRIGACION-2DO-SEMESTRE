@@ -1,0 +1,18 @@
+ANALISIS:
+El programa cuenta cuantos hombres hay en un grupo. Se usan cuatro arreglos paralelos para guardar los datos de cada persona: nombre, sexo, edad y estatura.
+
+DATOS DE ENTRADA:
+n: numero de personas en el grupo
+nom$(i): nombre de la persona i
+sex$(i): sexo de la persona i, H para hombre o M para mujer
+edad(i): edad en años de la persona i
+est(i): estatura en metros de la persona i
+
+PROCESO:
+Se leen los cuatro datos de cada persona. El sexo se convierte a mayusculas para evitar errores. Luego se recorre el arreglo de sexos y se cuenta cuantos son igual a "H".
+
+DATOS DE SALIDA:
+cont: el numero total de hombres en el grupo
+
+RESTRICCIONES:
+El sexo debe ser H o M. El programa lo convierte a mayusculas automaticamente, o sea acepta h, H, m o M.

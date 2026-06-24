@@ -1,0 +1,15 @@
+ANALISIS:
+Similar al programa 16 pero ahora se cuentan las mujeres. La estructura es identica, solo cambia la condicion de filtro de "H" a "M".
+
+DATOS DE ENTRADA:
+n: numero de personas
+nom$(i), sex$(i), edad(i), est(i): datos de cada persona
+
+PROCESO:
+Se leen los datos del grupo completo. Luego se cuenta cuantas personas tienen sex$(i) igual a "M". El sexo se convierte a mayusculas para no tener problemas con minusculas.
+
+DATOS DE SALIDA:
+cont: total de mujeres en el grupo
+
+RESTRICCIONES:
+El sexo debe ingresarse como H o M (el programa acepta minusculas tambien).

@@ -1,0 +1,11 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar variables d1 (diagonal mayor), d2 (diagonal menor), A (area)
+Paso 3. Mostrar titulo
+Paso 4. Pedir la diagonal mayor d1
+Paso 5. Si d1 <= 0, mostrar error y repetir Paso 4
+Paso 6. Pedir la diagonal menor d2
+Paso 7. Si d2 <= 0, mostrar error y repetir Paso 6
+Paso 8. Calcular A = (d1 * d2) / 2
+Paso 9. Mostrar A
+Paso 10. Esperar Enter
+Paso 11. Fin del programa

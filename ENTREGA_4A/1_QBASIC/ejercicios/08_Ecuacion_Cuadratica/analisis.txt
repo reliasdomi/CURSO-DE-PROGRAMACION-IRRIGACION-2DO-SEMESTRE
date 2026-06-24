@@ -1,0 +1,19 @@
+ANALISIS:
+Este programa resuelve una ecuacion cuadratica de la forma ax^2 + bx + c = 0. Puede tener cero, una o dos raices reales segun el valor del discriminante.
+
+DATOS DE ENTRADA:
+a: coeficiente cuadratico, no puede ser cero (si a=0 no es cuadratica)
+b: coeficiente lineal
+c: termino independiente
+
+PROCESO:
+Primero se calcula el discriminante: disc = b*b - 4*a*c. Luego hay tres casos posibles.
+1. Si disc < 0: no hay raices reales porque no podemos sacar raiz de un numero negativo
+2. Si disc = 0: hay exactamente una raiz, x = -b / (2*a)
+3. Si disc > 0: hay dos raices distintas usando la formula general con SQR
+
+DATOS DE SALIDA:
+Mensaje indicando el numero de raices y sus valores cuando existen
+
+RESTRICCIONES:
+El coeficiente a debe ser diferente de cero, es decir el programa lo valida antes de continuar.

@@ -1,0 +1,9 @@
+Paso 1. Inicio del programa
+Paso 2. Declarar variable n como entero
+Paso 3. Mostrar titulo "Par o Impar"
+Paso 4. Pedir al usuario un numero entero n
+Paso 5. Calcular n MOD 2
+Paso 6. Si el resultado es 0, mostrar "n es PAR"
+Paso 7. Si el resultado es diferente de 0, mostrar "n es IMPAR"
+Paso 8. Esperar Enter
+Paso 9. Fin del programa
