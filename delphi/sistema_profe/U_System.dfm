@@ -2,7 +2,7 @@ object F_System: TF_System
   Left = 0
   Top = 0
   Caption = 'Sistema de Programas 4A - Irrigacion'
-  ClientHeight = 360
+  ClientHeight = 380
   ClientWidth = 640
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -18,7 +18,7 @@ object F_System: TF_System
     Left = 0
     Top = 0
     Width = 640
-    Height = 130
+    Height = 150
     Align = alTop
     Color = clNavy
     ParentBackground = False
@@ -61,6 +61,24 @@ object F_System: TF_System
       Font.Name = 'Tahoma'
       Font.Style = []
       ParentFont = False
+    end
+    object L_Integrantes: TLabel
+      Left = 24
+      Top = 112
+      Width = 592
+      Height = 28
+      AutoSize = False
+      Caption =
+        'Integrantes: ELIAS DOMINGUEZ RUBEN  -  BISTRAIN BORRAZ ANGEL GABR' +
+        'IEL  -  CRUZ SIBAJA GIBRAN FRANCISCO  -  TORRES VALENCIA MARIO AL' +
+        'BERTO'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWhite
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
     end
   end
   object MainMenu1: TMainMenu

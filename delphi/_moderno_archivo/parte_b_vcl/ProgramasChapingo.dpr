@@ -1,3 +1,10 @@
+{ ==================================================================
+  INTEGRANTES - Grupo 4A - Irrigacion - U.A. Chapingo:
+    - ELIAS DOMINGUEZ RUBEN
+    - BISTRAIN BORRAZ ANGEL GABRIEL
+    - CRUZ SIBAJA GIBRAN FRANCISCO
+    - TORRES VALENCIA MARIO ALBERTO
+  ================================================================== }
 program ProgramasChapingo;
 { App VCL (RAD Studio / Delphi 12) - Los 42 programas del Grupo 4A.
   Universidad Autonoma Chapingo - Departamento de Irrigacion.

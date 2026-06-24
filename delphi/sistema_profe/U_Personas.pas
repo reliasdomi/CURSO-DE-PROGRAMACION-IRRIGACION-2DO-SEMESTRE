@@ -1,3 +1,10 @@
+{ ==================================================================
+  INTEGRANTES - Grupo 4A - Irrigacion - U.A. Chapingo:
+    - ELIAS DOMINGUEZ RUBEN
+    - BISTRAIN BORRAZ ANGEL GABRIEL
+    - CRUZ SIBAJA GIBRAN FRANCISCO
+    - TORRES VALENCIA MARIO ALBERTO
+  ================================================================== }
 unit U_Personas;
 
 { Datos poblacionales (programas 16-35). Replica el formulario U_personas

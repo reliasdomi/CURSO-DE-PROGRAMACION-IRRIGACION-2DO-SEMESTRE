@@ -1,3 +1,10 @@
+{ ==================================================================
+  INTEGRANTES - Grupo 4A - Irrigacion - U.A. Chapingo:
+    - ELIAS DOMINGUEZ RUBEN
+    - BISTRAIN BORRAZ ANGEL GABRIEL
+    - CRUZ SIBAJA GIBRAN FRANCISCO
+    - TORRES VALENCIA MARIO ALBERTO
+  ================================================================== }
 unit uMiscelaneos;
 { Programas miscelaneos (ejercicios 07-10).
   07 Par/Impar, 08 Ecuacion cuadratica (con parabola), 09 Mayor, 10 Menor.

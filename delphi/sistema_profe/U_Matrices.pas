@@ -1,3 +1,10 @@
+{ ==================================================================
+  INTEGRANTES - Grupo 4A - Irrigacion - U.A. Chapingo:
+    - ELIAS DOMINGUEZ RUBEN
+    - BISTRAIN BORRAZ ANGEL GABRIEL
+    - CRUZ SIBAJA GIBRAN FRANCISCO
+    - TORRES VALENCIA MARIO ALBERTO
+  ================================================================== }
 unit U_Matrices;
 
 { Matrices (programas 39-42). Dos rejillas de entrada (A y B) y una de

@@ -1,3 +1,10 @@
+{ ==================================================================
+  INTEGRANTES - Grupo 4A - Irrigacion - U.A. Chapingo:
+    - ELIAS DOMINGUEZ RUBEN
+    - BISTRAIN BORRAZ ANGEL GABRIEL
+    - CRUZ SIBAJA GIBRAN FRANCISCO
+    - TORRES VALENCIA MARIO ALBERTO
+  ================================================================== }
 unit uLogica;
 { Capa de calculo PURA (sin interfaz) de los 42 programas del Grupo 4A.
   No usa VCL: compila con Delphi y tambien con Free Pascal (-Mdelphi) para

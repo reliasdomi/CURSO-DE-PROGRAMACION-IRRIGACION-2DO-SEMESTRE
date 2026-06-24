@@ -1,3 +1,10 @@
+{ ==================================================================
+  INTEGRANTES - Grupo 4A - Irrigacion - U.A. Chapingo:
+    - ELIAS DOMINGUEZ RUBEN
+    - BISTRAIN BORRAZ ANGEL GABRIEL
+    - CRUZ SIBAJA GIBRAN FRANCISCO
+    - TORRES VALENCIA MARIO ALBERTO
+  ================================================================== }
 unit U_System;
 
 { Formulario principal: menu general (TMainMenu) que abre un formulario
@@ -16,6 +23,7 @@ type
     L_Titulo: TLabel;
     L_Subtitulo: TLabel;
     L_Instruccion: TLabel;
+    L_Integrantes: TLabel;
     MainMenu1: TMainMenu;
     M_Figuras: TMenuItem;
     M_Cuadrado: TMenuItem;

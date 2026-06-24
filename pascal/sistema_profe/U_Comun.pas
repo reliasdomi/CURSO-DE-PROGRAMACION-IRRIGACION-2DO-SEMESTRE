@@ -1,3 +1,10 @@
+{ ==================================================================
+  INTEGRANTES - Grupo 4A - Irrigacion - U.A. Chapingo:
+    - ELIAS DOMINGUEZ RUBEN
+    - BISTRAIN BORRAZ ANGEL GABRIEL
+    - CRUZ SIBAJA GIBRAN FRANCISCO
+    - TORRES VALENCIA MARIO ALBERTO
+  ================================================================== }
 unit U_Comun;
 
 { ------------------------------------------------------------------
@@ -226,6 +233,9 @@ begin
   OutTextXY(ANCHO div 2,  6, 'UNIVERSIDAD AUTONOMA CHAPINGO - IRRIGACION');
   SetColor(Yellow);
   OutTextXY(ANCHO div 2, 22, Titulo);
+  SetColor(LightGray);
+  OutTextXY(ANCHO div 2, 36, 'ELIAS DOMINGUEZ RUBEN   -   BISTRAIN BORRAZ ANGEL GABRIEL');
+  OutTextXY(ANCHO div 2, 46, 'CRUZ SIBAJA GIBRAN FRANCISCO   -   TORRES VALENCIA MARIO ALBERTO');
   SetTextJustify(LeftText, TopText);
   SetColor(White);
   Abre_ventana := True;

@@ -1,3 +1,10 @@
+{ ==================================================================
+  INTEGRANTES - Grupo 4A - Irrigacion - U.A. Chapingo:
+    - ELIAS DOMINGUEZ RUBEN
+    - BISTRAIN BORRAZ ANGEL GABRIEL
+    - CRUZ SIBAJA GIBRAN FRANCISCO
+    - TORRES VALENCIA MARIO ALBERTO
+  ================================================================== }
 program P_Sistema;
 
 { ------------------------------------------------------------------
@@ -26,6 +33,8 @@ begin
   ClrScr;
   WriteLn('===========================================================');
   WriteLn('   UNIVERSIDAD AUTONOMA CHAPINGO - IRRIGACION  -  GRUPO 4A');
+  WriteLn('   Integrantes: Elias Dominguez Ruben, Bistrain Borraz Angel Gabriel,');
+  WriteLn('                Cruz Sibaja Gibran Francisco, Torres Valencia Mario Alberto');
   WriteLn('   ', Titulo);
   WriteLn('===========================================================');
 end;

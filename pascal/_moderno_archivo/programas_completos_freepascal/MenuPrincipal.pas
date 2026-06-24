@@ -1,3 +1,10 @@
+{ ==================================================================
+  INTEGRANTES - Grupo 4A - Irrigacion - U.A. Chapingo:
+    - ELIAS DOMINGUEZ RUBEN
+    - BISTRAIN BORRAZ ANGEL GABRIEL
+    - CRUZ SIBAJA GIBRAN FRANCISCO
+    - TORRES VALENCIA MARIO ALBERTO
+  ================================================================== }
 program MenuPrincipal;
 { MENU PRINCIPAL - Paquete PASCAL (modo grafico real) - Grupo 4A
   Universidad Autonoma Chapingo - Departamento de Irrigacion.

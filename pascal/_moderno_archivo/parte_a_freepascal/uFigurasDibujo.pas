@@ -1,3 +1,10 @@
+{ ==================================================================
+  INTEGRANTES - Grupo 4A - Irrigacion - U.A. Chapingo:
+    - ELIAS DOMINGUEZ RUBEN
+    - BISTRAIN BORRAZ ANGEL GABRIEL
+    - CRUZ SIBAJA GIBRAN FRANCISCO
+    - TORRES VALENCIA MARIO ALBERTO
+  ================================================================== }
 unit uFigurasDibujo;
 { Dibujo de las figuras geometricas en MODO GRAFICO real usando la unit Graph
   de Free Pascal (backend ptcgraph en Windows -> abre una ventana grafica BGI).

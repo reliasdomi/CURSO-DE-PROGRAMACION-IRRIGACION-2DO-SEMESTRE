@@ -5,7 +5,6 @@
 ' Bistrain Borraz Angel Gabriel
 ' Cruz Sibaja Gibran Francisco
 ' Elias Dominguez Ruben
-' Ortiz Ugarte Jonatan
 ' Torres Valencia Mario Alberto
 
 DIM datos(100), x(100), y(100)
@@ -37,6 +36,7 @@ LOCATE 2, 26: PRINT "UNIVERSIDAD AUTONOMA CHAPINGO"
 LOCATE 3, 28: PRINT "DEPARTAMENTO DE IRRIGACION"
 COLOR 15, 1
 LOCATE 4, 29: PRINT "P R O G R A M A C I O N"
+COLOR 10, 1: LOCATE 7, 3: PRINT "Integrantes: Elias Dominguez, Bistrain Borraz, Cruz Sibaja, Torres Valencia";
 COLOR 14, 1
 LOCATE 6, INT((80 - LEN(titulo$)) / 2) + 1: PRINT titulo$
 COLOR 15, 1
